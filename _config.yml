@@ -1,1 +1,42 @@
-theme: jekyll-theme-cayman
+# Site settings
+host : travelrootsindia.com
+name : Travelroots India
+description: Travelroots India
+author : "SparshamOrg"
+url : "https://travelrootsindia.com"
+baseurl : "/"
+author_name : "Travelroots"
+author_bio : "" 
+twitter_username: Travelrootsindia
+facebook_username: Travelrootsindia
+# Build settings
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+permalink: /:title/
+paginate: 7
+showFeed : true
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+# SEO settings
+title: sparsham
+twitter:
+  username: SparshamCharitableSociety
+facebook:
+  app_id: 222755514444735
+  publisher: https://www.facebook.com/Travelrootsindia
+  admins: https://www.facebook.com/kbvishnu
+social:
+  name : Travelroots
+  links: ["http://www.twitter.com/Travelroots","https://www.facebook.com/Travelrootsindia","https://plus.google.com/Travelrootsindia","https://in.linkedin.com/in/Travelrootsindia","https://www.youtube.com/channel/UC98FbpEB4PvgOYq1GKCtOgQ"]
+google_site_verification: gfDtT8jd3OHpmGe2VJwYDE7G9-xwmpbQVVugKEU-Kp4
