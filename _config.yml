@@ -1,14 +1,15 @@
 # Site settings
-host : travelrootsindia.com
-name : Travelroots India
-description: Travelroots India
-author : "SparshamOrg"
-url : "https://travelrootsindia.com"
+host : 127.1.0.0
+name : TravelrootsIndia
+description: TravelrootsIndia .
+author : "TravelrootsIndiaOrg"
+url : "https://127.1.0.0"
+fqurl : "https://127.1.0.0/"
 baseurl : "/"
-author_name : "Travelroots"
+author_name : "TravelrootsIndia"
 author_bio : "" 
-twitter_username: Travelrootsindia
-facebook_username: Travelrootsindia
+twitter_username: TravelrootsIndiaorg
+facebook_username: TravelrootsIndia
 # Build settings
 encoding: UTF-8
 markdown: kramdown
@@ -17,7 +18,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 permalink: /:title/
-paginate: 7
+paginate: 3
 showFeed : true
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems:
@@ -29,14 +30,16 @@ compress_html:
   comments: all
   endings: all
 # SEO settings
-title: sparsham
+title: TravelrootsIndia
 twitter:
-  username: SparshamCharitableSociety
+  username: TravelrootsIndia
 facebook:
   app_id: 222755514444735
-  publisher: https://www.facebook.com/Travelrootsindia
+  publisher: https://www.facebook.com/TravelrootsIndia
   admins: https://www.facebook.com/kbvishnu
 social:
-  name : Travelroots
-  links: ["http://www.twitter.com/Travelroots","https://www.facebook.com/Travelrootsindia","https://plus.google.com/Travelrootsindia","https://in.linkedin.com/in/Travelrootsindia","https://www.youtube.com/channel/UC98FbpEB4PvgOYq1GKCtOgQ"]
-google_site_verification: gfDtT8jd3OHpmGe2VJwYDE7G9-xwmpbQVVugKEU-Kp4
+  name : TravelrootsIndia
+  links: ["http://www.twitter.com/TravelrootsIndiaOrg","https://www.facebook.com/TravelrootsIndia","https://plus.google.com/TravelrootsIndia","https://in.linkedin.com/in/TravelrootsIndia","https://www.youtube.com/channel/UC98FbpEB4PvgOYq1GKCtOgQ"]
+google_site_verification: g12yfu4dXlcHcAPxbSApkXdqkPZwuxOeqj8q7pANb4E
+
+theme: jekyll-theme-minimal
